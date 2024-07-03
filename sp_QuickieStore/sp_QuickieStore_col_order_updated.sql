@@ -3,6 +3,11 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
+/* 
+see my blog post on what I updated here: 
+https://sqlkitty.com/modifying-sp_quickiestore/
+*/
+
 CREATE or ALTER PROCEDURE
     [dbo].[sp_QuickieStore_ColOrderUpdated]
 (
